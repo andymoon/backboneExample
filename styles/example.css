@@ -1,0 +1,47 @@
+.header {
+    font-size: 2em;
+    width: 100%;
+    padding: 30px;
+    background-color: #3f3f3f;
+    text-align: center;
+}
+
+.header .title {
+    color: white;
+}
+
+.side {
+    position: absolute;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 0px;
+    top: 97px;
+    width: 260px;
+    background-color: #f2f2f2;
+    padding-left: 10px;
+}
+
+.side div {
+    margin-top:20px;
+}
+
+.side a {
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+
+.content-container{
+    margin-left:280px;
+    margin-top:97px;
+}
+
+.welcome{
+    text-align: center;
+    font-size: 2em;
+}
+
+.dynatree-sample .message-container{
+    height: 50px;
+    font-size: 1.2em;
+}
