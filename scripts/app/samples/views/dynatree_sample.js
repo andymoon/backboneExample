@@ -31,9 +31,8 @@ define([
             return this;
         },
 
-        onTreeClick:function(node){
+        onTreeClick:function(node, event){
             this.$nodeClickText.text(node.data.title).fadeIn().fadeOut("slow");
-            node._expand();
         }
 
     });
